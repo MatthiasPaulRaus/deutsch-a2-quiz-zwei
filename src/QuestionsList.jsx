@@ -2,9 +2,9 @@ const QuestionsList = [
     {
         question:"Was haben Sie nach dem Studium gemacht?",
         answersList: [
-            {answer:"Da habe ich eine lange Reise gemacht.", isCorrect:true},
-            {answer:"Zuerst habe ich das Abitur gemacht.", isCorrect:false},
-            {answer:"Ich wollte ein Praktikum machen.", isCorrect:false},
+            {answer:"Zuerst habe ich eine lange Reise gemacht.", isCorrect:true},
+            {answer:"Da habe ich das Abitur gemacht.", isCorrect:false},
+            {answer:"Ich wollte kein Praktikum machen.", isCorrect:false},
         ]
     },{
         question:"Wer sind die Leute auf dem Foto?",
@@ -59,8 +59,8 @@ const QuestionsList = [
         question:"Wie lernen Sie die neuen Wörter?",
         answersList: [
             {answer:"Ich höre gern Lieder und singe mit.", isCorrect:false},
-            {answer:"Ich muss sie oft hören und laut aussprechen.", isCorrect:false},
-            {answer:"Ich lerne die Regeln und schreibe sie auf.", isCorrect:true},
+            {answer:"Ich muss sie oft hören und laut aussprechen.", isCorrect:true},
+            {answer:"Ich lerne die Regeln und schreibe sie auf.", isCorrect:false},
         ]
     },{
         question:"Für einen guten Kartoffelsalat braucht man:",
@@ -125,7 +125,7 @@ const QuestionsList = [
         answersList: [
             {answer:"Ich konnte schon mit drei Jahren laufen.", isCorrect:false},
             {answer:"Ich habe schon mit vier Jahren Schach gespielt.", isCorrect:true},
-            {answer:"Ich durfe schon mit fünf Jahren in den Zoo gehen.", isCorrect:false},
+            {answer:"Ich durfte schon mit fünf Jahren in den Zoo gehen.", isCorrect:false},
         ]
     },{
         question:"Ich sollte Sie gestern anrufen.",
@@ -218,4 +218,4 @@ const QuestionsList = [
 
 ].sort(() => Math.random() - 0.5);
 
-export default QuestionsList;
+export default QuestionsList
